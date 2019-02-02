@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  java-protobuf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: deploy
+    container_name: java-protobuf
+    ports:
+      - 8080:8080
+    volumes:
+      - ../pb-data:/app/pb-data/
