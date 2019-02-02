@@ -117,7 +117,7 @@ Or:
 
 ## How to use
 
-Create a request to the following the URL:
+Create a request to the following URL:
 
 `http://localhost:8080/api/person`
 
